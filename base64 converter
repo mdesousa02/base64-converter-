@@ -1,0 +1,1 @@
+for cred in $(cat tomcat.txt); do echo -n $cred | base64; done
